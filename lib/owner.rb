@@ -42,12 +42,12 @@ class Owner
     end 
   end 
   
-  def buy_cat(cat)
-   Cat.new(cat, self)
+  def buy_cats(cat)
+    Cat.new(cat, self)
   end 
   
-  def buy_dog(dog)
-    Dog.new(dog, self)
+  def buy_dogs(dog)
+    Dog.new(dog,self)
   end 
   
   def walk_dogs
