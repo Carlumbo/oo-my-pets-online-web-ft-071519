@@ -68,6 +68,4 @@ class Owner
     "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
   end 
   
-b59fee6fd5acbb6a2c69ae740281c2b56c45fd05=======
->>>>>>> 
 end
