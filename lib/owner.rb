@@ -2,8 +2,11 @@ class Owner
  attr_reader :name
   @@all = []
   
+<<<<<<< HEAD
   @@pets = { cats: [], dogs: []}
   
+=======
+>>>>>>> b59fee6fd5acbb6a2c69ae740281c2b56c45fd05
   def initialize(name)
     @name = name
     @@all << self 
@@ -27,6 +30,7 @@ class Owner
     self.all.clear
   end 
   
+<<<<<<< HEAD
   def cats 
     Cat.all.select do |cat|
       cat.owner == self 
@@ -65,4 +69,6 @@ class Owner
     "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
   end 
   
+=======
+>>>>>>> b59fee6fd5acbb6a2c69ae740281c2b56c45fd05
 end

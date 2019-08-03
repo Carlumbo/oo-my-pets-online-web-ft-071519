@@ -1,6 +1,10 @@
 class Cat
   attr_accessor :owner
+<<<<<<< HEAD
   attr_reader :name
+=======
+  attr_reader :name, :mood
+>>>>>>> b59fee6fd5acbb6a2c69ae740281c2b56c45fd05
   
   @@all = []
   
@@ -8,6 +12,7 @@ class Cat
     @name = name 
     @owner = owner
     @@all << self
+<<<<<<< HEAD
     @mood = "nervous"
   end 
   
@@ -17,11 +22,23 @@ class Cat
   
   def mood=(mood = "playful" )
     @mood= mood
+=======
+    mood
+  end 
+  
+  
+  def mood=(mood = "nervous")
+    @mood = mood
+>>>>>>> b59fee6fd5acbb6a2c69ae740281c2b56c45fd05
   end 
   
   def self.all 
     @@all
   end 
+<<<<<<< HEAD
   
+=======
+    
+>>>>>>> b59fee6fd5acbb6a2c69ae740281c2b56c45fd05
 
 end
