@@ -15,7 +15,7 @@ class Cat
     @all
   end 
   
-  def mood=(mood= "playful")
+  def mood=(mood = "playful")
     @mood = mood 
   end 
   
