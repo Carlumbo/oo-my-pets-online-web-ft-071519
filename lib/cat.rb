@@ -21,15 +21,7 @@ class Cat
   end 
   
   def mood=(mood = "playful" )
-    @mood= mood
-=======
-    mood
-  end 
-  
-  
-  def mood=(mood = "nervous")
     @mood = mood
->>>>>>> b59fee6fd5acbb6a2c69ae740281c2b56c45fd05
   end 
   
   def self.all 
