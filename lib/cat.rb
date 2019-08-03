@@ -35,10 +35,4 @@ class Cat
   def self.all 
     @@all
   end 
-<<<<<<< HEAD
-  
-=======
-    
->>>>>>> b59fee6fd5acbb6a2c69ae740281c2b56c45fd05
-
 end
