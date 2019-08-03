@@ -2,7 +2,7 @@ class Owner
  attr_reader :name
   @@all = []
   
-<<<<<<< HEAD
+  
   @@pets = { cats: [], dogs: []}
   
 =======
