@@ -68,4 +68,8 @@ class Owner
     "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
   end 
   
+  def all
+    all.count
+  end 
+  
 end
