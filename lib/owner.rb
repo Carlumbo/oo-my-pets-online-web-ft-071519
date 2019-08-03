@@ -11,6 +11,11 @@ class Owner
     @species
   end 
   
+  def say_species
+    @species 
+    "I am human."
+  end 
+    
   def self.all 
     @all
   end 
