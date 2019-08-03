@@ -13,7 +13,7 @@ class Owner
   
   def say_species
     @species 
-    "I am human."
+    "I am a human."
   end 
     
   def self.all 
