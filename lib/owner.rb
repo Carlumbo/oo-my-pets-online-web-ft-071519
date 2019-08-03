@@ -5,12 +5,12 @@ class Owner
   
   @@pets = { cats: [], dogs: []}
   
-=======
->>>>>>> b59fee6fd5acbb6a2c69ae740281c2b56c45fd05
+
   def initialize(name)
     @name = name
     @@all << self 
   end 
+  
   def species
     @species = "human"
   end 
@@ -30,7 +30,6 @@ class Owner
     self.all.clear
   end 
   
-<<<<<<< HEAD
   def cats 
     Cat.all.select do |cat|
       cat.owner == self 
