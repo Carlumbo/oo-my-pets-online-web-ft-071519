@@ -19,4 +19,8 @@ class Cat
     @mood = mood 
   end 
   
+  def mood=(mood = "nervous")
+    @mood = mood
+  end 
+  
 end 
